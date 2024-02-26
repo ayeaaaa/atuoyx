@@ -5,5 +5,12 @@ API_KEY是CF里面的Global API Key
 
 
 一键脚本：
-
+优选IP：
 wget -N --no-check-certificate https://github.com/ayeaaaa/atuoyx/releases/download/autoip/yx.sh && bash yx.sh
+
+给内网设备添加IPV6：
+wget -N --no-check-certificate https://github.com/ayeaaaa/atuoyx/releases/download/autoip/adv6.sh && bash adv6.sh   
+
+
+
+
