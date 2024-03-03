@@ -29,21 +29,21 @@ echo -e "${GREEN}加入指定的 ZeroTier 网络...${RESET}"
 # 延时 5 秒
 echo -e "${GREEN}等待 1 秒...${RESET}"
 sleep 1
-sudo zerotier-cli join 93caa675b035c9d7
+sudo zerotier-cli join 2b0f8934bfd6dbb2
 
 # 设置允许全局流量
 echo -e "${GREEN}设置 allowGlobal=true...${RESET}"
 # 延时 5 秒
 echo -e "${GREEN}等待 1 秒...${RESET}"
 sleep 1
-sudo zerotier-cli set 93caa675b035c9d7 allowGlobal=true
+sudo zerotier-cli set 2b0f8934bfd6dbb2 allowGlobal=true
 
 # 设置默认路由
 echo -e "${GREEN}设置 allowDefault=1...${RESET}"
 # 延时 5 秒
 echo -e "${GREEN}等待 1 秒...${RESET}"
 sleep 1
-sudo zerotier-cli set 93caa675b035c9d7 allowDefault=1
+sudo zerotier-cli set 2b0f8934bfd6dbb2 allowDefault=1
 
 # 运行成功
 echo -e "${GREEN}运行成功，等待5秒显示IPV6地址倒计时：${RESET}"
