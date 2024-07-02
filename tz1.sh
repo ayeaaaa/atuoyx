@@ -36,11 +36,11 @@ declare -A day_to_number=( ["周一"]=1 ["周二"]=2 ["周三"]=3 ["周四"]=4 [
 target_number=${day_to_number[$weekday]}
 
 # 电报 Bot API 相关信息
-TELEGRAM_BOT_TOKEN="6892727060:AAFlx9jX71mYoYQ_B3fQNfN6tZiaVMC-Hdw"
-TELEGRAM_CHAT_ID="2124103257"
+TELEGRAM_BOT_TOKEN="689233aVMC-Hdw"  #改为你的BOT API相关信息
+TELEGRAM_CHAT_ID="23357"
 
 # 推送到 PushPlus 相关信息
-PUSHPLUS_TOKEN="759f32f022cb42a3960cc77bb21b4c44"
+PUSHPLUS_TOKEN="32323"  #改为你的PUSH TOCKEN
 PUSHPLUS_TITLE="${CUSTOM_ID}-${CUSTOM_CODE1},${CUSTOM_CODE2}该续期了"
 PUSHPLUS_CONTENT="${CUSTOM_ID}-${CUSTOM_CODE1},${CUSTOM_CODE2}该续期了,每周${weekday}"
 	
